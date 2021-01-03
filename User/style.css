@@ -1,0 +1,913 @@
+@charset "UTF-8";
+/**
+ * Summary:
+ *
+ *  0. ELEMENT
+ *      - 0.1. Body / Typography
+ *      - 0.2. Type Elements
+        - 0.3. Header
+        - 0.4. Sidebar
+        - 0.5. Container
+        - 0.6. Pageheader
+        - 0.7. Footer
+
+   -------------------------
+
+ *  1. Dashboard
+
+ *      - 1.1. TYPE ELEMENT
+ *      - 1.2. TYPE ELEMENT
+
+   --------------------------
+
+2. UI Elements
+
+    - 2.1.  Alerts
+    - 2.2.  Buttons
+    - 2.3.  Cards
+    - 2.4.  General
+    - 2.5.  Modals
+    - 2.6.  Notifications
+    - 2.7.  Icon
+    - 2.8.  Tabs
+    - 2.9.  Accordions
+    - 2.10. Typography
+    - 2.11. Listgroup
+    - 2.12. Multiselect
+    - 2.13. Badge
+    - 2.14. Pagination
+    - 2.15. Switch Toogle
+    - 2.16. Spinner
+
+
+    ----------------------------
+
+3. Charts
+
+    - 3.1.  Chartist js
+    - 3.2.  Sparklines
+    - 3.3.  Chart.js
+    - 3.4.  Morris.js
+    - 3.5.  C3 Charts.js
+
+     ----------------------------
+
+4. Forms
+
+    - 4.1.  Elements
+    - 4.2.  Validations
+    - 4.3.  Multiselect
+    - 4.4.  Wizard
+    - 4.5.  Input Mask
+    - 4.6.  Summar Note text editor
+    - 4.7.  Multi Upload
+
+
+     ----------------------------
+
+
+5. Tables
+
+    - 5.1.  General
+    - 5.2.  Data Tables
+    - 5.3.  Table Filters
+
+
+
+         ----------------------------
+
+
+6. Pages
+
+    - 6.1.   Blank Page
+    - 6.2.   Blank Page Header
+    - 6.3.   Login
+    - 6.4.   Sign up
+    - 6.5.   Forgot Password
+    - 6.6.   Profile
+    - 6.7.   Pricing
+    - 6.8.   Timline
+    - 6.9.   Calendar
+    - 6.10.  Metrics
+    - 6.11.  Media Object
+    - 6.12.  Shortable / Nestable
+    - 6.13.  404 Error
+
+
+
+
+
+
+         ----------------------------
+
+7. Email
+
+    - 7.1.  Inbox
+    - 7.2.  Email Detail
+    - 7.3.  Email Compose
+    - 7.4.  Message Chat
+
+       ----------------------------
+
+
+8. Layouts
+
+    - 8.1. Primary Header
+    - 8.2. Success Header
+    - 8.3. Warning Header
+    - 8.4. Danger Header
+    - 8.5. Search Input
+    - 8.6. Off Canvas Menu
+    - 8.7. Without Left Sidebar
+    - 8.8. Without Right Sidebar
+    - 8.9. Without Both Sidebars
+    - 8.10. Fixed Left Sidebar
+    - 8.11. Boxed Layout
+    - 8.12. Page Aside
+    - 8.13. Collapsible Sidebar
+    - 8.14. Sub Navigation
+
+
+
+       ----------------------------
+
+
+9. Maps
+
+    - 9.1.  Google Map
+    - 9.2.  Vector Map
+
+       ----------------------------
+
+
+10. Menu Level
+
+    - 10.1.  Level 1
+    - 10.2.  Level 2
+   */
+
+
+/* ==========================================================================
+   0. ELEMENT
+   ========================================================================== */
+
+
+/* 0.1. Body / Typography
+   ========================================================================== */
+
+body {
+   
+}
+
+
+/* ==========================================================================
+   0.3.  Header
+   ========================================================================== */
+
+
+/*-----------------------
+Top Header
+-------------------------*/
+
+
+
+.dashboard-header .navbar {
+    padding: 0px;
+    border-bottom: 1px solid #e40b0b;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+   
+    height: 60px;
+}
+
+
+
+.navbar-brand {
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+  
+  vertical-align: middle;
+    padding-left: 35px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'newton';
+}
+.navbar-brand:hover{
+    color: black;
+}
+
+
+.navbar-right-top .nav-item {
+    padding-right: 25px;
+}
+
+.navbar-right-top .nav-item:last-child {
+    border: none;
+}
+
+.navbar-right-top .nav-item .nav-link {
+    padding: 13px 20px;
+    font-size: 16px;
+    line-height: 2;
+    color: #82849f;
+}
+
+
+/* ------  top-search-bar --------  */
+
+
+.find {
+    
+    font: 13px monospace;
+    color: #000000;
+    margin-top:15px;
+  }
+ 
+ 
+
+
+/* ----- User Nav Dropdown -----*/
+
+
+
+.nav-user-dropdown {
+    padding: 0px;
+    min-width: 230px;
+    margin: 0px;
+}
+
+.nav-user-name {
+    color: black !important;
+}
+
+.nav-user-info {
+    background-color: #ffffff;
+    line-height: 1.4;
+    padding: 12px;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 2px 2px 0 0;
+    text-align: center;
+    border-bottom:1px solid red;
+}
+
+.nav-user-info .status {
+    float: left;
+    top: 7px;
+    left: 0px;
+}
+
+
+
+.nav-user-dropdown .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 12px 22px 15px;
+    clear: both;
+    font-weight: 400;
+    color: black;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    font-size: 13px;
+    line-height: 0.4;
+}
+
+.nav-user-dropdown .dropdown-item:hover {
+    background-color: #f7f7fb;
+}
+
+
+/* ------  Top Header User Info --------  */
+
+
+/* -------------------- 0.4. Sidebar ----------------------- */
+
+
+.navigation-horizontal {
+
+    width: 100%;
+    height: 100%;
+
+    overflow: auto;
+   /* background-color: #fff;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    -webkit-transition: all 0.3s ease;*/
+}
+
+.navigation-horizontal .nav-link[data-toggle="collapse"] {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-horizontal .nav-link[data-toggle="collapse"]::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 8px;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.navigation-horizontal .nav-link[data-toggle="collapse"][aria-expanded="false"]:after {
+    transform: rotate(-90deg);
+}
+
+.navigation-horizontal .nav-link[data-toggle="collapse"]:after {
+    transition: transform .35s ease, opacity .35s ease;
+    opacity: .5;
+}
+
+.navigation-horizontal .navbar-nav {
+    width: 100%;
+}
+
+.navigation-horizontal .navbar {
+    position: relative;
+    padding: 0px;
+}
+
+
+
+.navigation-horizontal .navbar-nav .nav-link {
+   font-size: 13px;
+    padding: 9px 30px 9px 20px;
+    margin-bottom: 2px;
+    color: #71789e;
+    transition: 0.3s;
+    margin: 6px 1px;
+}
+
+.navigation-horizontal .nav-link i {
+    font-size: 14px;
+    margin-right: 9px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.nav-divider {
+    padding: 10px 14px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.navigation-horizontal .submenu {
+       background-color: #e2e2eb;
+    margin-top: -6px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.navigation-horizontal .submenu .nav .nav-item .nav-link {
+    font-size: 12px;
+    padding: 0px 12px;
+    transition: 0.3s;
+    line-height: 1;
+}
+
+.navigation-horizontal .navbar-nav .nav-link:focus,
+.navigation-horizontal .navbar-nav .nav-link.active {
+    background-color: #e2e2eb;
+    color: #3d405c;
+    border-radius: 2px;
+}
+
+.navigation-horizontal .navbar-nav .nav-link:focus,
+.navigation-horizontal .navbar-nav .nav-link:hover {
+    background-color: #e2e2eb;
+    color: #3d405c;
+    border-radius: 2px;
+}
+
+.navigation-horizontal .submenu .nav .nav-item .nav-link:hover {
+    color: #3d405c;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------
+Left Navigation Sidebar
+------------------------- */
+
+.nav-left-sidebar {
+    position: fixed;
+    width: 264px;
+    height: 100%;
+    top: 60px;
+    overflow: auto;
+    background-color: #2A3F54;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    box-shadow: 0px 0px 28px 0px rgba(82, 63, 105, 0.13);
+    
+   
+}
+
+.nav-left-sidebar .nav-link[data-toggle="collapse"] {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left-sidebar .nav-link[data-toggle="collapse"]::after {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    right: 20px;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+
+.nav-left-sidebar .nav-link[data-toggle="collapse"][aria-expanded="false"]:after {
+    transform: rotate(-90deg);
+}
+
+.nav-left-sidebar .nav-link[data-toggle="collapse"]:after {
+    transition: transform .35s ease, opacity .35s ease;
+    opacity: .5;
+}
+
+.nav-left-sidebar .navbar-nav {
+    width: 100%;
+}
+
+.nav-left-sidebar .navbar {
+    position: relative;
+    padding: 14px;
+}
+
+
+
+.nav-left-sidebar .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 12px;
+    /* margin-bottom: 2px; */
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.nav-left-sidebar .nav-link i {
+    font-size: 14px;
+    margin-right: 9px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 16px;
+}
+
+.nav-divider {
+    padding: 10px 14px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.nav-left-sidebar .submenu {
+    padding-left: 25px;
+    padding-right: 12px;
+    /* margin-top: 5px; */
+    background: #2A3F54;
+}
+
+.nav-left-sidebar .submenu .nav .nav-item .nav-link {
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: 0.3s;
+}
+
+.nav-left-sidebar .navbar-nav .nav-link:focus,
+.nav-left-sidebar .navbar-nav .nav-link.active {
+    background-color: #2A3F54;
+    color: #3d405c;
+    border-radius: 2px;
+}
+
+.nav-left-sidebar .navbar-nav .nav-link:focus,
+.nav-left-sidebar .navbar-nav .nav-link:hover {
+    background-color: #132435;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #132435;
+}
+
+.nav-left-sidebar .navbar-toggler {
+    background-color: #fff;
+}
+.navbar-toggler {
+    padding: .25rem 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+/* -----------------------
+Leftsidebar - Primary
+------------------------- */
+
+.sidebar-primary {
+    background-color: #414da7;
+}
+
+.sidebar-primary .nav-divider {
+    color: #ddddff;
+}
+
+.sidebar-primary.nav-left-sidebar .nav-link i {
+    color: #8991d4;
+}
+
+
+
+.sidebar-primary.nav-left-sidebar .navbar-nav .nav-link {
+    color: #8991d4;
+}
+
+.sidebar-primary.nav-left-sidebar .navbar-nav .nav-link:focus,
+.sidebar-primary.nav-left-sidebar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #5761c2;
+    border-radius: 2px;
+}
+
+.sidebar-primary.nav-left-sidebar .navbar-nav .nav-link:focus,
+.sidebar-primary.nav-left-sidebar .navbar-nav .nav-link.active {
+    background-color: #5761c2;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.sidebar-primary.nav-left-sidebar .submenu .nav .nav-item .nav-link:hover {
+    color: #fff;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+
+/*-----------------------
+Sidebar Page Navigations
+-------------------------*/
+
+.sidebar-nav-fixed {
+    position: sticky;
+    top: 5rem;
+}
+
+.sidebar-nav-fixed ul li a {
+    font-size: 14px;
+    color: #71728e;
+    display: block;
+    padding: 5px 15px;
+    background: transparent;
+    border-radius: 4px;
+    line-height: 1.8;
+}
+
+.sidebar-nav-fixed ul li a:hover {
+    color: #5969ff;
+}
+
+.sidebar-nav-fixed ul li a.active {
+    display: block;
+    color: #5969ff;
+    background: #e0e0fd;
+}
+
+
+/*--- Bootstrap Dropdown ----*/
+
+.dropdown-menu {
+    background: #fff;
+    font-size: 14px;
+    color: #3d405c;
+    border: 1px solid #e6e6f2;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #3d405c;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    color: #5969ff;
+    background: #efeff6;
+}
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #5969ff;
+}
+
+
+/* -------------------- 0.5.Container / Wrapper ----------------------- */
+
+
+/*-----------------------
+Container / Wrapper
+-------------------------*/
+/*---------------------Top Box 4 ---------------------------*/
+.info-box {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 0.25rem;
+    background: #ffffff;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1rem;
+    min-height: 80px;
+    padding: .5rem;
+    position: relative;
+    width: 100%;
+  }
+
+  .info-box .info-box-icon {
+    border-radius: 0.25rem;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.875rem;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    width: 70px;
+    color: #ffffff;
+  }
+
+  .info-box .info-box-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    line-height: 120%;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 10px;
+    color: #000000;
+  }
+  .info-box .info-box-number {
+    display: block;
+    margin-top: .25rem;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+/*-------------------------- notice ----------------*/
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #0f0f0f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d2d2e4;
+    border-radius: 50px;
+    
+}
+
+.form-control:focus {
+    color: black;
+    border: 1px solid #d2d2e4;
+    box-shadow: none !important;
+}
+
+textarea.form-control {
+    height: auto;
+    color: #71748d;
+    background-color: #fff;
+    
+    border: 1px solid #d2d2e4;
+    border-radius: 2px;
+    padding: 12px 16px;
+    margin-top: 15px;
+    min-height: 185px;
+}
+
+.notice input, .notice button{
+    margin-top: 15px;
+}
+.notice button{
+    float: right;
+    margin-right: 7px;
+}
+
+.dashboard-main-wrapper {
+    min-height: 100%;
+    padding-top: 60px;
+    position: relative;
+}
+
+.dashboard-wrapper {
+    position: relative;
+    left: 0;
+    margin-left: 264px;
+    min-height: 870px !important;
+   
+}
+
+.dashboard-content {
+    padding: 30px 30px 60px 30px;
+}
+
+
+
+/* -------------------- table----------------------- */
+
+
+
+/* -------------------- 0.7.Footer ----------------------- */
+
+
+/*-----------------------
+ Footer
+-------------------------*/
+
+.footer {
+   
+    
+    color: #71748d;
+    bottom: 0;
+    position: fixed;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    /*position: absolute; bottom: 0;*/
+}
+
+.footer-content{
+    padding-top: 10px;
+    padding-left: 140px;
+    text-align: right;
+}
+
+.footer .footer-links a {
+    color: #71748d;
+    margin-left: 1.5rem;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+
+
+.datateble{
+    margin:2em;
+}
+
+td:last-child {text-align:center;}
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------- User icon sizes ---------------------*/
+
+.user-avatar-xxxl {
+    height: 500px;
+    width: 500px;
+}
+.user-avatar-xxl {
+    height: 128px;
+    width: 128px;
+}
+
+.user-avatar-xl {
+    height: 90px;
+    width: 90px;
+}
+
+.user-avatar-lg {
+    height: 48px;
+    width: 48px;
+}
+
+.user-avatar-md {
+    height: 32px;
+    width: 32px;
+}
+
+.user-avatar-sm {
+    height: 24px;
+    width: 24px;
+}
+
+.user-avatar-xs {
+    height: 18px;
+    width: 18px;
+}
+
+
+
+  
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width:320px) {}
